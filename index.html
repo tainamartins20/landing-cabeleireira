@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Studio Bella - Transforme seu visual com um toque de beleza e confiança. Cortes, colorações e tratamentos personalizados.">
+    <title>Studio Vivace - Cabelos & Beleza</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="landing-page">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="logo">Studio Vivace</div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-headline">Transforme seu visual com um toque de beleza e confiança</h1>
+                    <p class="hero-subheadline">Cortes, colorações e tratamentos personalizados por profissionais que entendem de você.</p>
+                    <button onclick="handleWhatsAppClick()" class="cta-button">
+                        <i data-lucide="message-circle"></i>
+                        AGENDAR AGORA
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="benefits-section">
+            <div class="container">
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-content">
+                            <div class="benefit-icon">
+                                <i data-lucide="scissors" stroke-width="2"></i>
+                            </div>
+                            <h3>Cortes modernos e personalizados</h3>
+                            <p>Estilo único para cada cliente</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-content">
+                            <div class="benefit-icon">
+                                <i data-lucide="sparkles" stroke-width="2"></i>
+                            </div>
+                            <h3>Produtos de alta qualidade</h3>
+                            <p>Apenas as melhores marcas</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-content">
+                            <div class="benefit-icon">
+                                <i data-lucide="message-circle" stroke-width="2"></i>
+                            </div>
+                            <h3>Atendimento humanizado</h3>
+                            <p>Cuidado e atenção em cada detalhe</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-content">
+                            <div class="benefit-icon">
+                                <i data-lucide="clock" stroke-width="2"></i>
+                            </div>
+                            <h3>Agendamento flexível e rápido</h3>
+                            <p>Marque seu horário pelo WhatsApp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+            <section class="about-section">
+                <div class="container">
+                    <div class="about-grid">
+                    <div class="about-card">
+                        <div class="about-image-frame">
+                        <img src="assets/img/img1.jpg"  loading="lazy">
+                        </div>
+                        <div class="about-text">
+                        <span class="about-subtitle">Cortes e Química de Alto Padrão</span>
+                        <h2 class="about-title">Sofisticação para uma Beleza Autêntica</h2>
+                        <p class="about-description">
+                            Explore a experiência única de transformação nas mãos dos 
+                            <strong>melhores profissionais</strong> da região.
+                        </p>
+                        <button onclick="handleWhatsAppClick()" class="cta-button">
+                            <i data-lucide="message-circle"></i>
+                            AGENDAR AGORA
+                        </button>
+                        </div>
+                    </div>
+
+                    <div class="about-card reverse">
+                        <div class="about-image-frame">
+                        <img src="assets/img/img2.jpg" alt="Maquiagem profissional" loading="lazy">
+                        </div>
+                        <div class="about-text">
+                        <span class="about-subtitle">A Beleza em Foco: Trabalho de Excelência</span>
+                        <h2 class="about-title">Makeup de Alta Categoria</h2>
+                        <p class="about-description">
+                            Maquiagem de vanguarda para um visual <em>deslumbrante</em> e sofisticado.
+                        </p>
+                        <button onclick="handleWhatsAppClick()" class="cta-button">
+                            <i data-lucide="message-circle"></i>
+                            AGENDAR AGORA
+                        </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Services Section -->
+        <section class="services-section">
+  <div class="services-box">
+    <div class="circle-top"></div>
+
+    <h2 class="section-title">NOSSOS SERVIÇOS</h2>
+
+    <!-- Grid de serviços: cada .service-item é uma célula da grade -->
+    <div class="services-grid-text">
+      <!-- Linha 1 -->
+      <div class="service-item"><strong>ESTÉTICA<br>VISAGISMO</strong></div>
+      <div class="service-item"><strong>ESCOVAS</strong></div>
+      <div class="service-item"><strong>CAMUFLAGEM<br>MASCULINA</strong></div>
+      <div class="service-item"><strong>COLORAÇÃO</strong></div>
+
+      <!-- Linha 2 -->
+      <div class="service-item"><strong>TONALIZAÇÃO</strong></div>
+      <div class="service-item"><strong>MECHAS</strong></div>
+      <div class="service-item"><strong>RECONSTRUÇÃO</strong></div>
+      <div class="service-item"><strong>OZÔNIO<br>TERAPIA</strong></div>
+
+      <!-- Linha 3 -->
+      <div class="service-item"><strong>PROGRESSIVA</strong></div>
+      <div class="service-item"><strong>SELAGEM CAPILAR</strong></div>
+      <div class="service-item"><strong>SELAGEM<br>TÉRMICA</strong></div>
+      <div class="service-item"><strong>HIDRATAÇÃO</strong></div>
+
+      <!-- Linha 4 -->
+      <div class="service-item"><strong>MANICURE</strong></div>
+      <div class="service-item"><strong>PEDICURE</strong></div>
+      <div class="service-item"><strong>PLÁSTICA<br>DOS PÉS</strong></div>
+      <div class="service-item"><strong>ALONGAMENTO<br>DE UNHAS</strong></div>
+
+      <!-- Linha 5 -->
+      <div class="service-item"><strong>MAQUIAGEM</strong></div>
+      <div class="service-item"><strong>SOBRANCELHA</strong></div>
+      <div class="service-item"><strong>CÍLIOS</strong></div>
+      <div class="service-item"><strong>E<br>MUITO MAIS</strong></div>
+    </div>
+  </div>
+</section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title">O Que Nossas Clientes Dizem</h2>
+                <div class="decorative-line"></div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-mark">"</div>
+                            <p class="testimonial-text">Meu cabelo nunca ficou tão bonito! Atendimento incrível e ambiente acolhedor.</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwyfHxiZWF1dHklMjBzYWxvbnxlbnwwfHx8fDE3NjA1NTYwNzF8MA&ixlib=rb-4.1.0&q=85" alt="Mariana Silva" class="author-image" loading="lazy">
+                                <div>
+                                    <p class="author-name">Mariana Silva</p>
+                                    <p class="author-location">São Paulo, SP</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-mark">"</div>
+                            <p class="testimonial-text">Profissionais super qualificados! Saí do salão me sentindo uma nova pessoa.</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.pexels.com/photos/705255/pexels-photo-705255.jpeg" alt="Carolina Lima" class="author-image" loading="lazy">
+                                <div>
+                                    <p class="author-name">Carolina Lima</p>
+                                    <p class="author-location">São Paulo, SP</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-mark">"</div>
+                            <p class="testimonial-text">Adorei o resultado! A Isabella entende exatamente o que queremos. Super recomendo!</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.pexels.com/photos/853427/pexels-photo-853427.jpeg" alt="Amanda Costa" class="author-image" loading="lazy">
+                                <div>
+                                    <p class="author-name">Amanda Costa</p>
+                                    <p class="author-location">São Paulo, SP</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2 class="cta-title">Agende agora e viva a sua melhor versão!</h2>
+                <p class="cta-subtitle">Atendimento com horário marcado! clique abaixo e fale diretamente pelo WhatsApp.</p>
+                <button onclick="handleWhatsAppClick()" class="cta-button-large">
+                    <i data-lucide="message-circle"></i>
+                    AGENDAR AGORA
+                </button>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div>
+                        <div class="footer-logo">Studio Vivace</div>
+                        <p class="footer-logo-subtitle">Cabelos & Beleza</p>
+                    </div>
+                    <div class="footer-info">
+                        <p><strong>Horário:</strong> Seg a Sáb, 9h às 19h</p>
+                        <p><strong>E-mail:</strong> contato@studiovivace.com</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2025 Studio Vivace. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
