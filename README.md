@@ -66,8 +66,6 @@ O projeto visa **atrair clientes e facilitar agendamentos via WhatsApp**, destac
 <li><strong>HTML5</strong> → Estrutura semântica</li>
 <li><strong>CSS3</strong> → Estilização com grid, flexbox e animações</li>
 <li><strong>JavaScript</strong> → Interatividade, scroll animations e agendamento via WhatsApp</li>
-<li><strong>Google Fonts</strong> → Playfair Display e Inter</li>
-<li><strong>Lucide Icons</strong> → Ícones vetoriais leves</li>
 </ul>
 
 ---
